@@ -2,7 +2,11 @@
 
 ### High-level topology
 
+![high-level](/docs/topology.png)
+
 ### Database 
+
+![database](/docs/db.png)
 
 
 ### Libraries and Framework
