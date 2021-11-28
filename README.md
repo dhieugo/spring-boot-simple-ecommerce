@@ -46,3 +46,10 @@ mvn spring-boot:run
 
 - `npm start` - Then you can access to the web app `localhost:4200`
 
+### API docs
+
+You can access to the swagger to see the API contract
+
+```
+http://localhost:8080/swagger-ui.html
+```
