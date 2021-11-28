@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+$primary: #0ac0d0;
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+html, body {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #f8f8f8;
+}
+
+.carousel-indicators {
+    li {
+        height: 10px;
+        border-radius: 5px;
+        &.active {
+            background-color: #db0076;
+        }
+    }
+}
+
+.carousel-item {
+    img {
+        object-fit: cover;
+        height: 500px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,31 @@
+<div class="container main">
+  <div class="row">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card text-center product-item">
+            <div class="card-header">
+              <h3>{{product.productName}}</h3>
+            </div>
+            <div class="card-body">
+              <img src="assets/images/car.jpeg" class="img-thumbnail" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-group">
+            <li class="list-group-item">Product Name: {{product.productName}}</li>
+            <li class="list-group-item">Product Price: {{product.price}} USD</li>
+            <li class="list-group-item">
+              <h5>SKU: {{product.sku}}</h5>
+              <div>Color: <span *ngFor="let c of product.attributes">{{c.attributeValue}},</span></div>
+            </li>
+          </ul>
+          <div>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
