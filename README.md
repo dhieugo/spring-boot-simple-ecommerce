@@ -9,6 +9,8 @@
 ![database](/docs/db.png)
 
 
+This database can help to store multiple product attributes easily. It can be improved to the product variation.
+
 ### Libraries and Framework
 
 Backend
