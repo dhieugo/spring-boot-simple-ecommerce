@@ -1,6 +1,6 @@
 # ECommerce app
 
-### High-level topology
+### High-level
 
 ![high-level](/docs/topology.png)
 
