@@ -40,6 +40,8 @@ Navigate to the `product` folder. You run this command to lunch the API
 mvn spring-boot:run
 ```
 
+I have added some data so we can review the product on the client facing app.
+
 2) Frontend - There is an README file in the `frontend` folder. 
 
 - Navigate to the `frontend` folder
